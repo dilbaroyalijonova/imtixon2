@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+container {
+  width: 1290;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/gothic-a1-v13-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/gothic-a1-v13-latin-700.woff2") format("woff2");
+}
+
+body {
+  font-family: "Gothic A1" sans-serif;
+  font-weight: 400;
+}
+
+header {
+  background: rgb(207, 0, 99);
+  background: linear-gradient(
+    168deg,
+    rgba(207, 0, 99, 1) 0%,
+    rgba(60, 12, 65, 1) 100%,
+    rgba (69, 14, 75, 1) 100%
+  );
+  color: #fff;
+}
+
+.richard {
+  padding: 2.9rem 7.2rem 2.8rem 7.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  column-gap: 3rem;
+}
+
+.menu a {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.chocco0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 7.2rem;
+}
+
+.chocco1-left-p {
+  font-size: 2.5rem;
+  line-height: 4.4rem;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+.button {
+  border: none;
+  background-color: #fc0a7e;
+  pad: 2rem 4rem;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.chocco-right {
+  width: 90%;
+}
+
+.iconca {
+  text-align: center;
+  padding-bottom: 3rem;
+  cursor: pointer;
+}
+
+.page {
+  background-color: rgba(27, 27, 27, 1);
+}
+
+.porta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.porta span {
+  color: rgba(168, 168, 168, 1);
+  font-size: 1.2rem;
+  line-height: 2rem;
+  letter-spacing: 2px;
+  padding-top: 10rem;
+}
+
+.porta h2 {
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 5.5rem;
+  margin-top: 3.5rem;
+  font-size: 3.8rem;
+  line-height: 4.8rem;
+  max-width: 60.7rem;
+  text-align: center;
+}
+
+.sanders {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8rem 14.4rem 16rem 14.4rem;
+}
+
+.sanders-content span {
+  color: rgba(168, 168, 168, 1);
+}
