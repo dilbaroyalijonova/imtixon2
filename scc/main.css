@@ -12,9 +12,15 @@ a {
   text-decoration: none;
 }
 
-container {
+html {
+  font-size: 62.5%;
+}
+
+.container {
   width: 1290;
   margin: 0 auto;
+  margin-top: 5rem;
+  padding-top: 5rem;
 }
 
 @font-face {
@@ -38,6 +44,21 @@ body {
   font-weight: 400;
 }
 
+body span {
+  line-height: 2rem;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: rgba(168, 168, 168, 1);
+}
+
+body h2 h3 {
+  color: rgba(0, 0, 0, 1);
+}
+
+body p {
+  color: rgba(107, 107, 107, 1);
+}
+
 header {
   background: rgb(207, 0, 99);
   background: linear-gradient(
@@ -50,7 +71,7 @@ header {
 }
 
 .richard {
-  padding: 2.9rem 7.2rem 2.8rem 7.2rem;
+  padding: 2.9rem 14.4rem 2.8rem 14.4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,20 +92,26 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 7.2rem;
+  padding: 0 0 0 14.4rem;
 }
 
-.chocco1-left-p {
-  font-size: 2.5rem;
+.chocco-left-p {
+  color: #fff;
+  font-size: 3rem;
   line-height: 4.4rem;
   padding-top: 1rem;
   padding-bottom: 2.5rem;
 }
 
+.chocco-left-h1 {
+  font-size: 8rem;
+  line-height: 8rem;
+}
+
 .button {
   border: none;
   background-color: #fc0a7e;
-  pad: 2rem 4rem;
+  padding: 2rem 4rem;
   color: #fff;
   font-size: 1.6rem;
   line-height: 2.6rem;
@@ -109,10 +136,10 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 12rem 0 12rem 0;
 }
 
 .porta span {
-  color: rgba(168, 168, 168, 1);
   font-size: 1.2rem;
   line-height: 2rem;
   letter-spacing: 2px;
@@ -120,7 +147,7 @@ header {
 }
 
 .porta h2 {
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
   margin-bottom: 5.5rem;
   margin-top: 3.5rem;
   font-size: 3.8rem;
@@ -131,11 +158,76 @@ header {
 
 .sanders {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 8rem 14.4rem 16rem 14.4rem;
+  justify-content: space-between;
+  padding: 8rem 32.4rem 16rem 27.4rem;
 }
 
 .sanders-content span {
-  color: rgba(168, 168, 168, 1);
+  letter-spacing: 2px;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+.sanders-content h2 {
+  font-size: 3.8rem;
+  line-height: 4.8rem;
+  max-width: 302px;
+}
+
+.sanders-content p {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  max-width: 306px;
+}
+
+.orders {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orders {
+  padding: 28.8rem 30.2rem 28.8rem 8.8rem;
+}
+
+.orders-content h2 {
+  line-height: 4.8rem;
+  font-size: 3.8rem;
+  padding-top: 2.5px;
+}
+
+.orders-content p {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  max-width: 306px;
+  padding-top: 2.7rem;
+}
+
+.orders-image {
+  padding-left: 30.2rem;
+}
+
+.magna {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.magna-content {
+  padding: 18.3rem 19.5rem 8.5rem 17.4rem;
+}
+
+.magna h2 {
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  max-width: 291px;
+  margin-top: 3rem;
+  margin-bottom: 2.2rem;
+}
+
+.magna p {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  max-width: 306px;
 }
