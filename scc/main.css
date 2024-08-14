@@ -19,7 +19,6 @@ html {
 .container {
   width: 1290;
   margin: 0 auto;
-  margin-top: 5rem;
   padding-top: 5rem;
 }
 
@@ -318,4 +317,106 @@ header {
   font-size: 1.6rem;
   line-height: 3rem;
   max-width: 330px;
+}
+
+.new-york-times {
+  padding: 0 36rem 036rem;
+  text-align: center;
+}
+
+.new-york-times p {
+  line-height: 4rem;
+  font-size: 2.4rem;
+  max-width: 700px;
+  margin-bottom: 1.7rem;
+}
+
+.ractangle {
+  margin: 0 1rem 0 1rem;
+  background-color: rgba(211, 211, 211, 1);
+}
+
+.joshua-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 7.2rem;
+}
+
+.new-york {
+  font-weight: 700;
+  line-height: 3rem;
+  font-size: 1.6rem;
+}
+
+.joshua {
+  line-height: 3rem;
+  font-size: 1.6rem;
+}
+
+.grey {
+  color: rgba(34, 34, 34, 1);
+  margin-right: 1rem;
+}
+
+.nebflow {
+  padding: 0 2.16rem 0 2.16rem;
+}
+
+.vector {
+  height: 474px;
+  text-align: center;
+  background: url(../imags/Vector.png);
+  background-repeat: repeat;
+  background-color: rgb(113, 41, 116);
+}
+
+.vector h2 {
+  font-size: 3.8rem;
+  line-height: 4.8rem;
+  margin: 15rem 0 1.7rem 0;
+  color: rgba(255, 255, 255, 1);
+}
+
+.download {
+  background-color: rgba(252, 10, 126, 1);
+  padding: 2rem 4rem;
+  line-height: 2.6rem;
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+}
+
+.toach {
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(176, 75, 179, 1);
+  background-color: rgb(113, 41, 116);
+  padding: 2rem 4rem;
+  line-height: 2.6rem;
+  opacity: 25%;
+  font-size: 1.6rem;
+}
+
+.get-up {
+  background-color: black;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.footer-menu a {
+  color: rgba(107, 107, 107, 1);
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding-bottom: 6.9rem;
 }
