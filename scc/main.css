@@ -160,7 +160,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8rem 32.4rem 16rem 27.4rem;
+  padding: 8rem 32.4rem 6rem 27.4rem;
 }
 
 .sanders-content span {
@@ -185,10 +185,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.orders {
-  padding: 28.8rem 30.2rem 28.8rem 8.8rem;
+  padding: 8.8rem 30.2rem 8rem 8.8rem;
 }
 
 .orders-content h2 {
@@ -215,7 +212,7 @@ header {
 }
 
 .magna-content {
-  padding: 18.3rem 19.5rem 8.5rem 17.4rem;
+  padding: 8.3rem 19.5rem 0 17.4rem;
 }
 
 .magna h2 {
@@ -230,4 +227,95 @@ header {
   font-size: 1.6rem;
   line-height: 3rem;
   max-width: 306px;
+}
+
+.magna-image {
+  padding-right: 32.4rem;
+}
+
+.notifications {
+  padding: 0 10.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 6.1rem;
+}
+
+.activity {
+  text-align: center;
+}
+
+.activity h4 {
+  color: rgba(0, 0, 0, 1);
+  line-height: 2.4rem;
+  font-size: 1.8rem;
+  margin-top: 4rem;
+  margin-bottom: 1.7rem;
+}
+
+.activity p {
+  line-height: 3rem;
+  font-size: 1.6rem;
+  max-width: 371px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 18.1rem 0 15.8rem;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.frame strong {
+  font-size: 5.9rem;
+  line-height: 9rem;
+}
+
+.frame span {
+  font-weight: 700;
+  line-height: 2.4rem;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  color: rgba(0, 0, 0, 1);
+}
+
+.vestibulum,
+.parturient-tortor {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 23.5rem 0 27.4rem;
+}
+
+.vestibulum h2 {
+  font-size: 3.8rem;
+  line-height: 4.8rem;
+  max-width: 258px;
+}
+
+.vestibulum p {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  max-width: 330px;
+}
+
+.cras {
+  font-weight: 700;
+  color: rgba(107, 107, 107, 1);
+}
+
+.parturient-tortor h2 {
+  font-size: 3.8rem;
+  line-height: 4.8rem;
+  max-width: 258px;
+}
+
+.parturient-tortor p {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  max-width: 330px;
 }
