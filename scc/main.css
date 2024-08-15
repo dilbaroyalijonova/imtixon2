@@ -114,6 +114,7 @@ header {
   color: #fff;
   font-size: 1.6rem;
   line-height: 2.6rem;
+  border-radius: 3px;
 }
 
 .chocco-right {
@@ -392,6 +393,7 @@ header {
   font-size: 1.6rem;
   color: rgba(255, 255, 255, 1);
   border: none;
+  border-radius: 3px;
 }
 
 .toach {
@@ -421,6 +423,26 @@ header {
   font-size: 1.6rem;
   line-height: 3rem;
   color: rgba(107, 107, 107, 1);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe {
+  background-color: rgba(252, 10, 126, 1);
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  padding: 2.2rem 4rem;
+  border-radius: 0 3px 3px 0;
+  border: none;
+}
+
+.email-your {
+  color: rgbargba(255, 255, 255, 1);
+  max-width: 153px;
+  max-height: 26px;
 }
 
 footer {
