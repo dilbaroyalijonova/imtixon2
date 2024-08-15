@@ -439,10 +439,13 @@ header {
   border: none;
 }
 
-.email-your {
-  color: rgbargba(255, 255, 255, 1);
-  max-width: 153px;
-  max-height: 26px;
+.your-email {
+  width: 311px;
+  height: 70px;
+  padding: 2rem;
+  color: rgba(28, 28, 28, 1);
+  line-height: 2.6rem;
+  font-size: 1.6rem;
 }
 
 footer {
