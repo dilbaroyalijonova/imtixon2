@@ -17,9 +17,8 @@ html {
 }
 
 .container {
-  width: 1290;
+  width: 1152;
   margin: 0 auto;
-  padding-top: 5rem;
 }
 
 @font-face {
@@ -60,17 +59,18 @@ body p {
 
 header {
   background: rgb(60, 12, 65);
+  background: rgb(69, 14, 75);
   background: linear-gradient(
-    267deg,
-    rgba(60, 12, 65, 1) 0%,
+    288deg,
+    rgba(69, 14, 75, 1) 21%,
     rgba(207, 0, 99, 1) 100%,
-    rgba(75, 14, 30, 0.9360994397759104) 100%
+    rgba(60, 12, 0, 0.65) 100%
   );
   color: #fff;
 }
 
 .richard {
-  padding: 2.9rem 14.4rem 2.8rem 14.4rem;
+  padding-top: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -78,6 +78,7 @@ header {
 
 .menu {
   display: flex;
+  align-items: center;
   column-gap: 3rem;
 }
 
@@ -91,10 +92,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0 0 14.4rem;
+}
+
+.chocco-left {
+  padding-right: 5px;
 }
 
 .chocco-left-p {
+  width: 677px;
   color: #fff;
   font-size: 3rem;
   line-height: 4.4rem;
@@ -115,6 +120,7 @@ header {
   font-size: 1.6rem;
   line-height: 2.6rem;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .chocco-right {
@@ -136,7 +142,6 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 12rem 0 12rem 0;
 }
 
 .porta span {
@@ -160,7 +165,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8rem 32.4rem 6rem 27.4rem;
+  padding-left: 14.4rem;
+  padding-right: 14.4rem;
+  padding-top: 8rem;
 }
 
 .sanders-content span {
@@ -173,25 +180,39 @@ header {
   font-size: 3.8rem;
   line-height: 4.8rem;
   max-width: 302px;
+  margin-top: 2.5rem;
 }
 
 .sanders-content p {
   font-size: 1.6rem;
   line-height: 3rem;
   max-width: 306px;
+  margin-top: 2.2rem;
+}
+
+.second-container {
+  max-width: 1296px;
 }
 
 .orders {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8.8rem 30.2rem 8rem 8.8rem;
+  padding: 16rem 14.4rem;
+}
+
+.orders-content span {
+  letter-spacing: 2px;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 .orders-content h2 {
   line-height: 4.8rem;
   font-size: 3.8rem;
-  padding-top: 2.5px;
+  padding-top: 2rem;
 }
 
 .orders-content p {
@@ -201,18 +222,12 @@ header {
   padding-top: 2.7rem;
 }
 
-.orders-image {
-  padding-left: 30.2rem;
-}
-
 .magna {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.magna-content {
-  padding: 8.3rem 19.5rem 0 17.4rem;
+  padding-left: 14.4rem;
+  padding-right: 14.4rem;
 }
 
 .magna h2 {
@@ -229,16 +244,11 @@ header {
   max-width: 306px;
 }
 
-.magna-image {
-  padding-right: 32.4rem;
-}
-
 .notifications {
-  padding: 0 10.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: 6.1rem;
+  margin-top: 15.9rem;
 }
 
 .activity {
@@ -262,7 +272,7 @@ header {
 .numbers {
   display: flex;
   justify-content: space-between;
-  padding: 0 18.1rem 0 15.8rem;
+  padding-top: 16rem;
 }
 
 .frame {
@@ -288,40 +298,57 @@ header {
 .parturient-tortor {
   display: flex;
   justify-content: space-between;
-  padding: 0 23.5rem 0 27.4rem;
+  padding: 0 14.4rem;
+  column-gap: 8rem;
+  margin-top: 16rem;
 }
 
 .vestibulum h2 {
   font-size: 3.8rem;
   line-height: 4.8rem;
   max-width: 258px;
+  margin-top: 2.5rem;
+  font-weight: 400;
 }
 
 .vestibulum p {
   font-size: 1.6rem;
   line-height: 3rem;
   max-width: 330px;
+  margin-top: 2.2rem;
 }
 
 .cras {
   font-weight: 700;
   color: rgba(107, 107, 107, 1);
+  text-decoration: underline;
 }
 
 .parturient-tortor h2 {
   font-size: 3.8rem;
   line-height: 4.8rem;
   max-width: 258px;
+  margin-top: 2rem;
+  font-weight: 400;
 }
 
 .parturient-tortor p {
   font-size: 1.6rem;
   line-height: 3rem;
   max-width: 330px;
+  margin-top: 2.7rem;
+}
+
+.new-york-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16rem;
+  padding-bottom: 16rem;
 }
 
 .new-york-times {
-  padding: 0 36rem 0 36rem;
   text-align: center;
 }
 
@@ -330,6 +357,8 @@ header {
   font-size: 2.4rem;
   max-width: 700px;
   margin-bottom: 1.7rem;
+  margin-top: 6.3rem;
+  text-align: center;
 }
 
 .ractangle {
@@ -355,34 +384,49 @@ header {
   font-size: 1.6rem;
 }
 
-.grey {
-  color: rgba(34, 34, 34, 1);
-  margin-right: 1rem;
+.img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.6rem;
+}
+
+.img-box .one {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: black;
+}
+
+.img-box .two {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: gray;
 }
 
 .nebflow {
-  padding-left: 20rem;
+  text-align: center;
+  padding-bottom: 11rem;
 }
 
 .vector {
   text-align: center;
-  padding: 6rem;
-  height: 474px;
+  padding-top: 15rem;
+  padding-bottom: 15.5rem;
   background: url(../imags/vector.svg);
   background-repeat: repeat;
-  background: linear-gradient(
-    267deg,
-    rgba(60, 12, 65, 1) 0%,
-    rgba(207, 0, 99, 1) 100%,
-    rgba(75, 14, 30, 0.9360994397759104) 100%
+  background-color: rgb(69, 14, 75);
+  background-color: linear-gradient(
+    288deg,
+    rgba(69, 14, 75, 1),
+    rgba(207, 0, 99, 1),
+    rgba(60, 12, 0, 0.65)
   );
-  border: 13px;
 }
 
 .vector h2 {
   font-size: 3.8rem;
   line-height: 4.8rem;
-  margin: 15rem 0 1.7rem 0;
+  margin-bottom: 1.7rem;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -409,6 +453,7 @@ header {
 .get-up {
   background-color: rgba(27, 27, 27, 1);
   text-align: center;
+  padding-bottom: 14.6rem;
 }
 
 .get-up h2 {
@@ -452,6 +497,10 @@ footer {
   background-color: rgba(27, 27, 27, 1);
   text-align: center;
   padding-bottom: 6.9rem;
+}
+
+.foot-menu {
+  padding-top: 3rem;
 }
 
 .footer-menu {
