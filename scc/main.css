@@ -408,6 +408,10 @@ header {
   padding-bottom: 11rem;
 }
 
+.phone {
+  text-align: center;
+}
+
 .vector {
   text-align: center;
   padding-top: 15rem;
