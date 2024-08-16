@@ -18,7 +18,8 @@ html {
 
 .container {
   width: 1152;
-  margin: 0 auto;
+  margin: auto;
+  padding: 0 50px;
 }
 
 @font-face {
@@ -69,65 +70,92 @@ header {
   color: #fff;
 }
 
-.richard {
-  padding-top: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+header {
+  background: rgb(196, 10, 98);
+  background: linear-gradient(
+    122deg,
+    rgba(196, 10, 98, 1) 35%,
+    rgba(115, 21, 116, 1) 60%,
+    rgba(67, 11, 90, 1) 69%
+  );
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 
 .menu {
   display: flex;
   align-items: center;
-  column-gap: 3rem;
+  column-gap: 4rem;
 }
 
-.menu a {
-  color: rgba(255, 255, 255, 1);
+a {
+  text-decoration: none;
+  color: #ffffff;
   font-size: 1.5rem;
-  line-height: 2rem;
+  font-weight: 2rem;
 }
 
-.chocco0 {
+ul {
+  list-style: none;
+}
+
+.navigation {
+  max-width: 115.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.chocco-left {
-  padding-right: 5px;
+.hard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.chocco-left-p {
-  width: 677px;
-  color: #fff;
-  font-size: 3rem;
-  line-height: 4.4rem;
-  padding-top: 1rem;
-  padding-bottom: 2.5rem;
+.hard img {
+  width: 65.2rem;
 }
 
-.chocco-left-h1 {
-  font-size: 8rem;
-  line-height: 8rem;
+.main h1 {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+  color: #ffffff;
+}
+
+.main p {
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 4rem;
+  color: #ffffff;
+  margin: 1rem 0 2.5rem 0;
 }
 
 .button {
-  border: none;
-  background-color: #fc0a7e;
   padding: 2rem 4rem;
-  color: #fff;
-  font-size: 1.6rem;
-  line-height: 2.6rem;
-  border-radius: 3px;
+  border-radius: 4px;
+  border: none;
+  background-color: #f91081;
   cursor: pointer;
 }
 
-.chocco-right {
-  width: 90%;
+.korsatgich {
+  position: relative;
+  left: 60rem;
+  bottom: 2rem;
+  border: none;
+  cursor: pointer;
 }
 
-.iconca {
+. .iconca {
   text-align: center;
   padding-bottom: 3rem;
   cursor: pointer;
@@ -416,15 +444,14 @@ header {
   text-align: center;
   padding-top: 15rem;
   padding-bottom: 15.5rem;
-  background: url(../imags/vector.svg);
+  background: url(../imags/vector.svg),
+    linear-gradient(
+      288deg,
+      rgba(69, 14, 75, 1),
+      rgba(207, 0, 99, 1),
+      rgba(60, 12, 0, 0.65)
+    );
   background-repeat: repeat;
-  background-color: rgb(69, 14, 75);
-  background-color: linear-gradient(
-    288deg,
-    rgba(69, 14, 75, 1),
-    rgba(207, 0, 99, 1),
-    rgba(60, 12, 0, 0.65)
-  );
 }
 
 .vector h2 {
