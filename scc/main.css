@@ -1,548 +1,533 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 ul li {
-  list-style: none;
+    list-style: none;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 .container {
-  width: 1152;
-  margin: auto;
-  padding: 0 50px;
+    width: 1152;
+    margin: auto;
+    padding: 0 50px;
 }
 
 @font-face {
-  font-display: swap;
-  font-family: "Gothic A1";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/gothic-a1-v13-latin-regular.woff2") format("woff2");
+    font-display: swap;
+    font-family: "Gothic A1";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/gothic-a1-v13-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-display: swap;
-  font-family: "Gothic A1";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/gothic-a1-v13-latin-700.woff2") format("woff2");
+    font-display: swap;
+    font-family: "Gothic A1";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/gothic-a1-v13-latin-700.woff2") format("woff2");
 }
 
 body {
-  font-family: "Gothic A1" sans-serif;
-  font-weight: 400;
+    font-family: "Gothic A1" sans-serif;
+    font-weight: 400;
 }
 
 body span {
-  line-height: 2rem;
-  font-size: 1.2rem;
-  letter-spacing: 2px;
-  color: rgba(168, 168, 168, 1);
+    text-transform: uppercase;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: rgba(168, 168, 168, 1);
 }
 
 body h2 h3 {
-  color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
 }
 
 body p {
-  color: rgba(107, 107, 107, 1);
+    font-size: 1.6rem;
+    line-height: 3rem;
+    letter-spacing: 2px;
+    color: rgba(107, 107, 107, 1);
 }
 
 header {
-  background: rgb(60, 12, 65);
-  background: rgb(69, 14, 75);
-  background: linear-gradient(
-    288deg,
-    rgba(69, 14, 75, 1) 21%,
-    rgba(207, 0, 99, 1) 100%,
-    rgba(60, 12, 0, 0.65) 100%
-  );
-  color: #fff;
-}
-
-header {
-  background: rgb(196, 10, 98);
-  background: linear-gradient(
-    122deg,
-    rgba(196, 10, 98, 1) 35%,
-    rgba(115, 21, 116, 1) 60%,
-    rgba(67, 11, 90, 1) 69%
-  );
+    background: rgb(60, 12, 65);
+    background: rgb(69, 14, 75);
+    background: linear-gradient( 288deg, rgba(69, 14, 75, 1) 21%, rgba(207, 0, 99, 1) 100%, rgba(60, 12, 0, 0.65) 100%);
+    color: #fff;
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 .container {
-  max-width: 1296px;
-  margin: 0 auto;
-  padding-top: 2rem;
+    max-width: 1296px;
+    margin: 0 auto;
+    padding-top: 2rem;
 }
 
 .menu {
-  display: flex;
-  align-items: center;
-  column-gap: 4rem;
+    display: flex;
+    align-items: center;
+    column-gap: 4rem;
 }
 
 a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 1.5rem;
-  font-weight: 2rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 2rem;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 .navigation {
-  max-width: 115.2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    max-width: 115.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.hard {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.chocco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.hard img {
-  width: 65.2rem;
+.chocco img {
+    width: 65.2rem;
 }
 
-.main h1 {
-  font-weight: 400;
-  font-size: 80px;
-  line-height: 80px;
-  color: #ffffff;
+.chocco-left h1 {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #ffffff;
 }
 
-.main p {
-  font-weight: 400;
-  font-size: 2.8rem;
-  line-height: 4rem;
-  color: #ffffff;
-  margin: 1rem 0 2.5rem 0;
+.chocco-left p {
+    width: 667px;
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 4rem;
+    color: #ffffff;
+    margin: 1rem 0 2.5rem 0;
 }
 
 .button {
-  padding: 2rem 4rem;
-  border-radius: 4px;
-  border: none;
-  background-color: #f91081;
-  cursor: pointer;
+    padding: 2rem 4rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #f91081;
+    cursor: pointer;
 }
 
-.korsatgich {
-  position: relative;
-  left: 60rem;
-  bottom: 2rem;
-  border: none;
-  cursor: pointer;
+.icon {
+    position: relative;
+    left: 60rem;
+    bottom: 2rem;
+    border: none;
+    cursor: pointer;
 }
 
-. .iconca {
-  text-align: center;
-  padding-bottom: 3rem;
-  cursor: pointer;
-}
-
-.page {
-  background-color: rgba(27, 27, 27, 1);
+.section-box1 {
+    background-color: rgba(27, 27, 27, 1);
 }
 
 .porta {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .porta span {
-  font-size: 1.2rem;
-  line-height: 2rem;
-  letter-spacing: 2px;
-  padding-top: 10rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    padding-top: 10rem;
 }
 
 .porta h2 {
-  color: #fff;
-  margin-bottom: 5.5rem;
-  margin-top: 3.5rem;
-  font-size: 3.8rem;
-  line-height: 4.8rem;
-  max-width: 60.7rem;
-  text-align: center;
+    color: #fff;
+    margin-bottom: 5.5rem;
+    margin-top: 3.5rem;
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    max-width: 60.7rem;
+    text-align: center;
 }
 
 .sanders {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 14.4rem;
-  padding-right: 14.4rem;
-  padding-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 14.4rem;
+    padding-right: 14.4rem;
+    padding-top: 8rem;
 }
 
 .sanders-content span {
-  letter-spacing: 2px;
-  line-height: 2rem;
-  font-size: 1.2rem;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    font-size: 1.2rem;
 }
 
 .sanders-content h2 {
-  font-size: 3.8rem;
-  line-height: 4.8rem;
-  max-width: 302px;
-  margin-top: 2.5rem;
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    max-width: 302px;
+    margin-top: 2.5rem;
 }
 
 .sanders-content p {
-  font-size: 1.6rem;
-  line-height: 3rem;
-  max-width: 306px;
-  margin-top: 2.2rem;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    max-width: 306px;
+    margin-top: 2.2rem;
 }
 
 .second-container {
-  max-width: 1296px;
+    max-width: 1296px;
 }
 
 .orders {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16rem 14.4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16rem 14.4rem;
 }
 
 .orders-content span {
-  letter-spacing: 2px;
-  line-height: 2rem;
-  font-size: 1.2rem;
-  text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
 .orders-content h2 {
-  line-height: 4.8rem;
-  font-size: 3.8rem;
-  padding-top: 2rem;
+    line-height: 4.8rem;
+    font-size: 3.8rem;
+    padding-top: 2rem;
 }
 
 .orders-content p {
-  font-size: 1.6rem;
-  line-height: 3rem;
-  max-width: 306px;
-  padding-top: 2.7rem;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    max-width: 306px;
+    padding-top: 2.7rem;
 }
 
 .magna {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 14.4rem;
-  padding-right: 14.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 14.4rem;
+    padding-right: 14.4rem;
 }
 
 .magna h2 {
-  font-size: 3.2rem;
-  line-height: 4.8rem;
-  max-width: 291px;
-  margin-top: 3rem;
-  margin-bottom: 2.2rem;
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    max-width: 291px;
+    margin-top: 3rem;
+    margin-bottom: 2.2rem;
 }
 
 .magna p {
-  font-size: 1.6rem;
-  line-height: 3rem;
-  max-width: 306px;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    max-width: 306px;
 }
 
 .notifications {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 15.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15.9rem;
 }
 
 .activity {
-  text-align: center;
+    text-align: center;
 }
 
 .activity h4 {
-  color: rgba(0, 0, 0, 1);
-  line-height: 2.4rem;
-  font-size: 1.8rem;
-  margin-top: 4rem;
-  margin-bottom: 1.7rem;
+    color: rgba(0, 0, 0, 1);
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+    margin-top: 4rem;
+    margin-bottom: 1.7rem;
 }
 
 .activity p {
-  line-height: 3rem;
-  font-size: 1.6rem;
-  max-width: 371px;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    max-width: 371px;
 }
 
 .numbers {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 16rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16rem;
 }
 
 .frame {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .frame strong {
-  font-size: 5.9rem;
-  line-height: 9rem;
+    font-size: 5.9rem;
+    line-height: 9rem;
 }
 
 .frame span {
-  font-weight: 700;
-  line-height: 2.4rem;
-  font-size: 1.8rem;
-  margin-top: 1rem;
-  color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    color: rgba(0, 0, 0, 1);
 }
 
 .vestibulum,
 .parturient-tortor {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 14.4rem;
-  column-gap: 8rem;
-  margin-top: 16rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14.4rem;
+    column-gap: 8rem;
+    margin-top: 16rem;
 }
 
 .vestibulum h2 {
-  font-size: 3.8rem;
-  line-height: 4.8rem;
-  max-width: 258px;
-  margin-top: 2.5rem;
-  font-weight: 400;
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    max-width: 258px;
+    margin-top: 2.5rem;
+    font-weight: 400;
 }
 
 .vestibulum p {
-  font-size: 1.6rem;
-  line-height: 3rem;
-  max-width: 330px;
-  margin-top: 2.2rem;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    max-width: 330px;
+    margin-top: 2.2rem;
 }
 
 .cras {
-  font-weight: 700;
-  color: rgba(107, 107, 107, 1);
-  text-decoration: underline;
+    font-weight: 700;
+    color: rgba(107, 107, 107, 1);
+    text-decoration: underline;
 }
 
 .parturient-tortor h2 {
-  font-size: 3.8rem;
-  line-height: 4.8rem;
-  max-width: 258px;
-  margin-top: 2rem;
-  font-weight: 400;
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    max-width: 258px;
+    margin-top: 2rem;
+    font-weight: 400;
 }
 
 .parturient-tortor p {
-  font-size: 1.6rem;
-  line-height: 3rem;
-  max-width: 330px;
-  margin-top: 2.7rem;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    max-width: 330px;
+    margin-top: 2.7rem;
 }
 
 .new-york-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: 16rem;
-  padding-bottom: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16rem;
+    padding-bottom: 16rem;
 }
 
 .new-york-times {
-  text-align: center;
+    text-align: center;
 }
 
 .new-york-times p {
-  line-height: 4rem;
-  font-size: 2.4rem;
-  max-width: 700px;
-  margin-bottom: 1.7rem;
-  margin-top: 6.3rem;
-  text-align: center;
+    line-height: 4rem;
+    font-size: 2.4rem;
+    max-width: 700px;
+    margin-bottom: 1.7rem;
+    margin-top: 6.3rem;
+    text-align: center;
 }
 
 .ractangle {
-  margin: 0 1rem 0 1rem;
-  background-color: rgba(211, 211, 211, 1);
+    margin: 0 1rem 0 1rem;
+    background-color: rgba(211, 211, 211, 1);
 }
 
 .joshua-home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 7.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7.2rem;
 }
 
 .new-york {
-  font-weight: 700;
-  line-height: 3rem;
-  font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 3rem;
+    font-size: 1.6rem;
 }
 
 .joshua {
-  line-height: 3rem;
-  font-size: 1.6rem;
+    line-height: 3rem;
+    font-size: 1.6rem;
 }
 
 .img-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  column-gap: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.6rem;
 }
 
 .img-box .one {
-  width: 0.7rem;
-  height: 0.7rem;
-  background-color: black;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: black;
 }
 
 .img-box .two {
-  width: 0.7rem;
-  height: 0.7rem;
-  background-color: gray;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: gray;
 }
 
 .nebflow {
-  text-align: center;
-  padding-bottom: 11rem;
+    text-align: center;
+    padding-bottom: 11rem;
 }
 
 .phone {
-  text-align: center;
+    text-align: center;
+}
+
+.ready {
+    background: url(../imags/vector.svg), linear-gradient( 288deg, rgba(69, 14, 75, 1), rgba(207, 0, 99, 1), rgba(60, 12, 0, 0.65));
+    background-repeat: repeat;
 }
 
 .vector {
-  text-align: center;
-  padding-top: 15rem;
-  padding-bottom: 15.5rem;
-  background: url(../imags/vector.svg),
-    linear-gradient(
-      288deg,
-      rgba(69, 14, 75, 1),
-      rgba(207, 0, 99, 1),
-      rgba(60, 12, 0, 0.65)
-    );
-  background-repeat: repeat;
+    text-align: center;
+    padding-top: 15rem;
+    padding-bottom: 15.5rem;
 }
 
 .vector h2 {
-  font-size: 3.8rem;
-  line-height: 4.8rem;
-  margin-bottom: 1.7rem;
-  color: rgba(255, 255, 255, 1);
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    margin-bottom: 1.7rem;
+    color: rgba(255, 255, 255, 1);
 }
 
 .download {
-  background-color: rgba(252, 10, 126, 1);
-  padding: 2rem 4rem;
-  line-height: 2.6rem;
-  font-size: 1.6rem;
-  color: rgba(255, 255, 255, 1);
-  border: none;
-  border-radius: 3px;
+    background-color: rgba(252, 10, 126, 1);
+    padding: 2rem 4rem;
+    line-height: 2.6rem;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 3px;
 }
 
 .toach {
-  color: rgba(255, 255, 255, 1);
-  border: 1px solid rgba(176, 75, 179, 1);
-  background-color: rgb(113, 41, 116);
-  padding: 2rem 4rem;
-  line-height: 2.6rem;
-  opacity: 25%;
-  font-size: 1.6rem;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(176, 75, 179, 1);
+    background-color: rgb(113, 41, 116);
+    padding: 2rem 4rem;
+    line-height: 2.6rem;
+    opacity: 25%;
+    font-size: 1.6rem;
+}
+
+.blac {
+    background-color: rgba(27, 27, 27, 1);
 }
 
 .get-up {
-  background-color: rgba(27, 27, 27, 1);
-  text-align: center;
-  padding-bottom: 14.6rem;
+    text-align: center;
+    padding-bottom: 14.6rem;
 }
 
 .get-up h2 {
-  color: rgba(255, 255, 255, 1);
-  font-size: 3.8rem;
-  line-height: 4.8rem;
-  padding-top: 12rem;
+    color: rgba(255, 255, 255, 1);
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    padding-top: 12rem;
 }
 
 .get-up p {
-  margin: 4rem 0 2rem 0;
-  font-size: 1.6rem;
-  line-height: 3rem;
-  color: rgba(107, 107, 107, 1);
+    margin: 4rem 0 2rem 0;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: rgba(107, 107, 107, 1);
 }
 
 .form {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .subscribe {
-  background-color: rgba(252, 10, 126, 1);
-  font-size: 1.6rem;
-  line-height: 2.6rem;
-  padding: 2.2rem 4rem;
-  border-radius: 0 3px 3px 0;
-  border: none;
+    background-color: rgba(252, 10, 126, 1);
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    padding: 2.2rem 4rem;
+    border-radius: 0 3px 3px 0;
+    border: none;
 }
 
 .your-email {
-  width: 311px;
-  height: 70px;
-  padding: 2rem;
-  color: rgba(28, 28, 28, 1);
-  line-height: 2.6rem;
-  font-size: 1.6rem;
+    width: 311px;
+    height: 70px;
+    padding: 2rem;
+    color: rgba(28, 28, 28, 1);
+    line-height: 2.6rem;
+    font-size: 1.6rem;
 }
 
 footer {
-  background-color: rgba(27, 27, 27, 1);
-  text-align: center;
-  padding-bottom: 6.9rem;
+    background-color: rgba(27, 27, 27, 1);
+    text-align: center;
+    padding-bottom: 6.9rem;
 }
 
 .foot-menu {
-  padding-top: 3rem;
+    padding-top: 3rem;
 }
 
 .footer-menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  column-gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3rem;
 }
 
 .footer-menu a {
-  color: rgba(107, 107, 107, 1);
-  font-size: 1.2rem;
-  line-height: 2rem;
+    color: rgba(107, 107, 107, 1);
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
